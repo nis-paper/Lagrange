@@ -16,6 +16,10 @@
 /*
   Base
 */
+hr {
+  color: black;
+}
+
 
 body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
