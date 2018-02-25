@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Welcome to Lagrange!"
-author: "Paul Le"
+title: "Welcome to NIS PAPER!"
+author: "Someone else"
 categories: journal
 tags: [documentation,sample]
 image: mountains.jpg
