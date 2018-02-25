@@ -6,13 +6,14 @@
       {% for mypost in site.tags[tag] limit:3 %}
         {% if listed_posts_urls contains mypost.url %}
         {% else %}
+         <hr>
           <li>
             <h3>
               <a href="{{ site.github.url }}{{ mypost.url }}">
-                {{ mypost.title }}
                 {% if page.image %}
                   <img src="{{ site.github.url }}/assets/img/{{ mypost.image }}">
                 {% endif %}
+                {{ mypost.title }}
                 <small>{{ mypost.date | date: "%B %-d, %Y" }}</small>
               </a>
             </h3>
