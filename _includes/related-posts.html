@@ -9,12 +9,15 @@
           <li>
             <h3>
               <a href="{{ site.github.url }}{{ mypost.url }}">
-                {% if page.image %}
-                  <img src="{{ site.github.url }}/assets/img/{{ mypost.image }}" style="height: 200px">
-                {% endif %}
                 {{ mypost.title }}
                 <br>
                 <small>{{ mypost.date | date: "%B %-d, %Y" }}</small>
+                <br>
+                {% if page.image %}
+                  <div style="height: 200px; overflow:hidden ">
+                  <img src="{{ site.github.url }}/assets/img/{{ mypost.image }}" style="height: 500px;">
+                  </div>
+                {% endif %}
               </a>
             </h3>
           </li>
