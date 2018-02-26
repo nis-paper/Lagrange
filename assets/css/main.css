@@ -17,7 +17,7 @@
   Base
 */
 hr {
-  color: black;
+  background: black;
 }
 
 
@@ -86,7 +86,7 @@ hr {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 984px;
+  width: 738px;
 }
 
 /*48em*/
