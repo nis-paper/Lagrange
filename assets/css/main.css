@@ -374,6 +374,19 @@ th, td {
 	color: #f39c12;
 }
 
+.fa-vk {
+    padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-vk:hover {
+    color: #45668e;
+}
+
 .fa-twitter {
   padding: 5px;
 	-o-transition:.5s;
