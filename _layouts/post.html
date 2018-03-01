@@ -15,11 +15,7 @@ layout: default
 <span class="post-date">
   {{ site.data.settings.post_date_prefix }}
   {% assign d = page.date | date: "%-d"  %}
-  {{ page.date | date: "%m" }}
-  {% case d %}
-    {% when '3' or '23' %}{{ d }}ье
-    {% else %}{{ d }}ое{% endcase %},
-  {{ page.date | date: "%Y" }}
+  {{ page.date | date: "%d-%m-%Y" }}
   Автор:
   {% if page.author %}
     {{ page.author }}
