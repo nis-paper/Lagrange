@@ -532,6 +532,7 @@ th, td {
 @media (max-width: 65em) {
     
     .scrollup {
-        width: 0px;
+        background: rgba(0, 0, 0, 0);
+        width: 5vw;
     }
 }
