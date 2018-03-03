@@ -10,9 +10,9 @@ jQuery(document).ready(function($){
 
 	//hide or show the "back to top" link
 	$(window).scroll(function(){
-		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('.is-visible') : $back_to_top.removeClass('.is-visible .fade-out');
+		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('is-visible') : $back_to_top.removeClass('is-visible fade-out');
 		if( $(this).scrollTop() > offset_opacity ) { 
-			$back_to_top.addClass('.fade-out');
+			$back_to_top.addClass('fade-out');
 		}
 	});
 
