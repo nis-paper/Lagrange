@@ -514,7 +514,7 @@ th, td {
 }
 
 .scrollup {
-    width: 5vw;
+    width: 10vw;
     height: 100vh;
     position: fixed;
     left: 0px;
@@ -522,5 +522,17 @@ th, td {
     display: none;
     text-indent: -9999px;
     background: url('icon_top.png') no-repeat;
+    background-color: #d6f0e7;
+}
+
+.scrollup:hover {
     background-color: #baeddb;
+}
+
+@media (max-width: 35em) {
+    
+    .scrollup {
+        width: 0px;
+        
+    }
 }
