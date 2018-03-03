@@ -529,10 +529,9 @@ th, td {
     background-color: #baeddb;
 }
 
-@media (max-width: 35em) {
+@media (max-width: 100em) {
     
     .scrollup {
         width: 0px;
-        
     }
 }
