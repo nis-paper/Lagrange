@@ -537,12 +537,12 @@ th, td {
   -moz-transition: opacity .3s 0s, visibility 0s 0s;
   transition: opacity .3s 0s, visibility 0s 0s;
 }
-.top.is-visible {
+.top .is-visible {
   /* the button becomes visible */
   visibility: visible;
   opacity: 1;
 }
-.top.fade-out {
+.top .fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
 }
