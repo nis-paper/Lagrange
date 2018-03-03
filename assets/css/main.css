@@ -514,13 +514,14 @@ th, td {
 }
 
 .scrollup {
-    width: 40px;
-    height: 40px;
+    width: 5vw;
+    height: 100vh;
     position: fixed;
-    bottom: 50px;
-    right: 100px;
+    margin-left: 0px;
+/*bottom: 50px;
+    right: 100px;*/
     display: none;
     text-indent: -9999px;
     background: url('icon_top.png') no-repeat;
-    background-color: #000;
+    background-color: #baeddb;
 }
