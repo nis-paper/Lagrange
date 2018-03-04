@@ -535,4 +535,8 @@ th, td {
         background: rgba(0, 0, 0, 0);
         width: 5vw;
     }
+    
+    .scrollup:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
 }
