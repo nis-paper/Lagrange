@@ -1,5 +1,10 @@
 <head>
-
+  <script type ="text/javascript">
+    var host = "nispaper.ga";
+    if ((host == window.location.host) && ( window.location.protocol !="https:"))
+      window.location.protocol = "https";
+  </script>
+  
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} | {{ site.description }}
